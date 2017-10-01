@@ -1,0 +1,26 @@
+{
+  "name": "financiallistapi",
+  "version": "1.0.0",
+  "description": "An API for getting financial records from backend to be displayed in the front end.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/zahidirfan/financialAPI"
+  },
+  "keywords": [
+    "Financial"
+  ],
+  "author": "Zahid Irfan",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "mongoose": "^4.11.14"
+  }
+}
