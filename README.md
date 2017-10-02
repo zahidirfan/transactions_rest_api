@@ -9,9 +9,11 @@ The significance of calculating the balances on the runtime is due to the follow
 ## Currently implemented features
 - Basic API structure for transactions table
 - Ablity to get transactions
-- Ability to create and delete an individual transaction
-## TODO 
+- Ability to create and delete an individual transaction 
 - Ability to add Categories
+- Ability to add Category Types
+
+# TODOs
 - Ability to add account holders
 - Ability to generate an amount payable/ receivable against individual account holders
 
