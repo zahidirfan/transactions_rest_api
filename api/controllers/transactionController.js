@@ -1,7 +1,7 @@
 'use strict';
 
 var mongoose = require('mongoose'),
-transaction = mongoose.model('transactions');
+transaction = mongoose.model('transaction');
 
 exports.list_all_transactions = function(req, res) {
   transaction.find({}, function(err, transaction) {

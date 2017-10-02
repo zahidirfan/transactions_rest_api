@@ -3,12 +3,12 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 
-var FinancialSchema = new Schema({
-  Category: {
+var TransactionSchema = new Schema({
+  category: {
     type: String,
     required: 'Kindly enter the transaction Category '
   },
-  Created_date: {
+  created_date: {
     type: Date,
     default: Date.now
   },
@@ -25,4 +25,4 @@ var FinancialSchema = new Schema({
   }
 });
 
-module.exports = mongoose.model('transactions', FinancialSchema);
+module.exports = mongoose.model('transaction', TransactionSchema);

@@ -2,7 +2,7 @@
   "name": "financiallistapi",
   "version": "1.0.0",
   "description": "An API for getting financial records from backend to be displayed in the front end.",
-  "main": "index.js",
+  "main": "index.htmls",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js"
