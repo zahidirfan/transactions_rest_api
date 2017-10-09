@@ -10,21 +10,19 @@ The significance of calculating the balances on the runtime is due to the follow
 - Basic API structure for transactions table
 - Ablity to get transactions
 - Ability to create and delete an individual transaction
+- Ability to create and delete an individual transaction 
+- Ability to add Categories
+- Ability to add Category Types
 
 # Dockerize API
 - The API has been dockerized via the following two files
 	-- DockerFile
 	-- docker-compose.yml
-## TODO 
-=======
-- Ability to create and delete an individual transaction 
-- Ability to add Categories
-- Ability to add Category Types
 
 # TODOs
 - Ability to add account holders
 - Ability to generate an amount payable/ receivable against individual account holders
-
+- Debugging API inside the Docker Container
 
 # Installation
 < TODO >
