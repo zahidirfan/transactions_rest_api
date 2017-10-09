@@ -3,6 +3,11 @@
 var mongoose = require('mongoose'),
 transaction = mongoose.model('transaction');
 
+
+exports.index=function(req, res) {
+  res.json("{Hello : From Zahid Irfan");
+}
+
 exports.list_all_transactions = function(req, res) {
   transaction.find({}, function(err, transaction) {
     if (err)

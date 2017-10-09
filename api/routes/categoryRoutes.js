@@ -3,7 +3,9 @@ module.exports = function(app) {
   var category = require('../controllers/categoryController'); 
 
 
-  // todoList Routes
+  
+
+
   app.route('/categories')
     .get(category.list_all_categories)
     .post(category.create_a_category);
@@ -14,3 +16,4 @@ module.exports = function(app) {
     .put(category.update_a_category)
     .delete(category.delete_a_category);
 };
+

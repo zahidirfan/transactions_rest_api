@@ -59,3 +59,6 @@ typings/
 
 # .DStore
 .DS_Store
+
+# Data for MongoDB
+./data
